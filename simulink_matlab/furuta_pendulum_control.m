@@ -104,7 +104,7 @@ ylabel('s');
 title('Sliding Surface');
 grid on;
 
-%% Dynamics Function (Revised for clarity)
+%% Dynamics Function
 function [dXdt, tauPhi] = pendulumDynamics(t, X, params, ctrl)
     % Extract states
     phi = X(1);
@@ -134,7 +134,6 @@ function [dXdt, tauPhi] = pendulumDynamics(t, X, params, ctrl)
           + params.bp * thetaDot;                         
     
     % Dynamics equation: M*[phiDDot; thetaDDot] = [tauPhi - H1; -H2]
-    % We'll solve for accelerations after computing tauPhi
     
     % Avoid division by zero
     threshold = 1e-5;
