@@ -45,7 +45,7 @@ FURUTA/
 **Software Stack**  
 - **MATLAB R2025a / Simulink** — controller design and simulation  
 - **Simulink Coder  (R2025a)** — automatic C code generation (ERT target, ARM cortexM)  
-- **STM32CubeIDE **— build system and firmware upload  
+- **STM32CubeIDE**— build system and firmware upload  
 - **Framework** — Bare-Metal C  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSNBCUrfD6LYGNDAgAU2QtIq6DIzW7UHAMBfHGt1V+fXEwAAXrseHDAF/orRG+cAAAAASUVORK5CYII=)  
 **Regenerating Controller Code**  
