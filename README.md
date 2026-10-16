@@ -22,8 +22,7 @@ FURUTA/
    
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OsQ1AABRAwSdRaPXGMOCv7WkPK+hEcjfBLTNzVFcAAPzFvVZbdX49AQDgtf0BSpoDXv5TGXgAAAAASUVORK5CYII=)  
 **Hardware**  
-| | |  
-|-|-|  
+
 | **Component** | **Details** |   
 | Microcontroller | STM32 Nucleo-H753ZI |   
 | Motor driver | BTS7960 (RPWM, LPWM, REN, LEN) |   
@@ -31,8 +30,7 @@ FURUTA/
 | Serial baud rate | 115200 |   
    
 **Pin mapping:**  
-| | |  
-|-|-|  
+ 
 | **Signal** | **Pin** |   
 | Motor encoder A | 2 |   
 | Motor encoder B | 3 |   
@@ -42,8 +40,7 @@ FURUTA/
 | BTS LPWM | 6 |   
 | BTS REN | 9 |   
 | BTS LEN | 8 |   
-   
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCj5fFyM6mJHAjAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrsexOEF35f1aEgAAAAASUVORK5CYII=)  
+(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OMQ2AABAAsSPBCj5fFyM6mJHAjAU2QtIq6DIzW7UHAMBfnGt1V8fXEwAAXrsexOEF35f1aEgAAAAASUVORK5CYII=)  
 **Software Stack**  
 - **MATLAB R2024b / Simulink** — controller design and simulation  
 - **Simulink Coder  (R2025a)** — automatic C code generation (ERT target, ARM cortexM)  
