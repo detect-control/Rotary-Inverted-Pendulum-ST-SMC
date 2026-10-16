@@ -1,0 +1,10 @@
+../Src/main.c:120:20:enable_fpu	4	static,ignoring_inline_asm
+../Src/main.c:132:13:system_clock_hsi_64mhz	4	static
+../Src/main.c:148:6:SysTick_Handler	4	static
+../Src/main.c:155:13:gpio_init	32	static
+../Src/main.c:200:13:tim3_encoder_init	4	static
+../Src/main.c:218:13:tim4_pwm_init	4	static
+../Src/main.c:238:21:wrap_pi	16	static
+../Src/main.c:242:21:read_pend_angle	16	static
+../Src/main.c:250:20:set_motor	24	static
+../Src/main.c:272:5:main	16	static

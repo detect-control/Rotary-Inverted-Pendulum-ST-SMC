@@ -1,0 +1,10 @@
+../Src/controller.c:104:20:rt_ZCFcn	32	static
+../Src/controller.c:177:6:local_stateReduction	72	static
+../Src/controller.c:196:13:rt_ertODEUpdateContinuousStates	88	static
+../Src/controller.c:266:6:controller_step	48	static
+../Src/controller.c:412:6:controller_derivatives	16	static
+../Src/controller.c:439:6:controller_initialize	32	static
+../Src/controller.c:508:18:rtIsInf	16	static
+../Src/controller.c:514:18:rtIsInfF	16	static
+../Src/controller.c:520:18:rtIsNaN	16	static
+../Src/controller.c:526:18:rtIsNaNF	16	static
