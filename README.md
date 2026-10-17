@@ -32,12 +32,12 @@ FURUTA/
 **Pin mapping:**  
  
 | **Signal** |  **Pin** |  
-| Pendulum encoder A (YT3806) | PA6 | 
-| Pendulum encoder B (YT3806) | PA7 |
-| BTS RPWM | PB6 |
-| BTS LPWM | PB7 |
-| BTS REN | PB10 |
-| BTS LEN | PB11 |   
+| Pendulum encoder A (YT3806) | PA6 |          
+| Pendulum encoder B (YT3806) | PA7 |         
+| BTS RPWM | PB6 |         
+| BTS LPWM | PB7 |         
+| BTS REN | PB10 |         
+| BTS LEN | PB11 |            
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OsQ1AABRAwSdRaPXGMOCv7WkPK+hEcjfBLTNzVFcAAPzFvVZbdX49AQDgtf0BSpoDXv5TGXgAAAAASUVORK5CYII=)   
 
