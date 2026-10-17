@@ -11,14 +11,15 @@ FURUTA/
  │   └── furuta_pendulum_control.m  # MATLAB script (parameters, tuning)  
  │  
  └── stm32CubeIde/            # Embedded project (STM32)  
-     ├── startup_stm32h753zitx.s        # Board: nucleo_h753zi, framework: Bare-metal C 
+     ├── startup/startup_stm32h753zitx.s        # Board: nucleo_h753zi, framework: Bare-metal C 
      └── src/  
          ├── main.cpp           # Encoder reading, control loop, motor driver  
          ├── controller.c       # Simulink-generated SMC implementation  
          ├── controller.h       # Simulink-generated controller interface  
          ├── rtwtypes.h         # Simulink Coder RTW type definitions  
-         ├── rtw_continuous.h   # RTW continuous-time support  
-         └── rtw_solver.h       # RTW solver definitions  
+         ├── rtw_continuous.h   # RTW continuous-time support 
+         ├── rtw_solver.h       # RTW solver definitions 
+         └── etc
    
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OsQ1AABRAwSdRaPXGMOCv7WkPK+hEcjfBLTNzVFcAAPzFvVZbdX49AQDgtf0BSpoDXv5TGXgAAAAASUVORK5CYII=)  
 **Hardware**  
@@ -30,15 +31,13 @@ FURUTA/
    
 **Pin mapping:**  
  
-| **Signal** |  
-| Motor encoder A    
-| Motor encoder B |  
-| Pendulum encoder A (YT3806) |  
-| Pendulum encoder B (YT3806) |  
-| BTS RPWM |  
-| BTS LPWM |    
-| BTS REN |   
-| BTS LEN |    
+| **Signal** |  **Pin** |  
+| Pendulum encoder A (YT3806) | PA6 | 
+| Pendulum encoder B (YT3806) | PA7 |
+| BTS RPWM | PB6 |
+| BTS LPWM | PB7 |
+| BTS REN | PB10 |
+| BTS LEN | PB11 |   
 
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OsQ1AABRAwSdRaPXGMOCv7WkPK+hEcjfBLTNzVFcAAPzFvVZbdX49AQDgtf0BSpoDXv5TGXgAAAAASUVORK5CYII=)   
 
