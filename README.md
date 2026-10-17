@@ -5,12 +5,12 @@ Full-stack implementation of a (rotary inverted) pendulum control system: from M
 The Furuta pendulum is an underactuated mechanical system consisting of a driven horizontal arm and a freely-swinging vertical pendulum. This project implements a **Sliding Mode Controller (SMC)** designed in MATLAB/Simulink (staSmc model), auto-generated as C code using Simulink Coder (R2025a), and deployed to an STM32 microcontroller using Bare-metal C on STM32CubeIDE.  
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OQQmAABRAsSeYxKS/kJkED6bwYAVvImwJtszMVu0BAPAXx1rd1fn1BACA164HHDwF+DpPyKwAAAAASUVORK5CYII=)  
 **Repository Structure**  
-FURUTA/  
+Rotary-Inverted-Pendulum ST-SMC/  
  ├── simulink_matlab/           # MATLAB/Simulink source files  
  │   ├── rip.slx                # Simulink model (staSmc — SMC controller)  
  │   └── furuta_pendulum_control.m  # MATLAB script (parameters, tuning)  
  │  
- └── stm32CubeIde/            # Embedded project (STM32)  
+ └── InvertedPendulum STM32/            # Embedded project (STM32)  
      ├── startup/startup_stm32h753zitx.s        # Board: nucleo_h753zi, framework: Bare-metal C 
      └── src/  
          ├── main.cpp           # Encoder reading, control loop, motor driver  
