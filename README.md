@@ -11,7 +11,7 @@ Rotary-Inverted-Pendulum ST-SMC/
  │   └── furuta_pendulum_control.m  # MATLAB script (parameters, tuning)  
  │  
  └── InvertedPendulum STM32/            # Embedded project (STM32)  
-     ├── startup/startup_stm32h753zitx.s        # Board: nucleo_h753zi, framework: Bare-metal C 
+     ├── startup/startup_stm32h753zitx.s        # Board: nucleo_h753zi, framework: Bare-metal C          
      └── src/           
          ├── main.cpp           # Encoder reading, control loop, motor driver  
          ├── controller.c       # Simulink-generated SMC implementation  
