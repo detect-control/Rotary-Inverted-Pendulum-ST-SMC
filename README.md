@@ -12,13 +12,13 @@ Rotary-Inverted-Pendulum ST-SMC/
  │  
  └── InvertedPendulum STM32/            # Embedded project (STM32)  
      ├── startup/startup_stm32h753zitx.s        # Board: nucleo_h753zi, framework: Bare-metal C 
-     └── src/  
+     └── src/           
          ├── main.cpp           # Encoder reading, control loop, motor driver  
          ├── controller.c       # Simulink-generated SMC implementation  
          ├── controller.h       # Simulink-generated controller interface  
          ├── rtwtypes.h         # Simulink Coder RTW type definitions  
          ├── rtw_continuous.h   # RTW continuous-time support 
-         ├── rtw_solver.h       # RTW solver definitions 
+         ├── rtw_solver.h       # RTW solver definitions          
          └── etc
    
 ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANUlEQVR4nO3OsQ1AABRAwSdRaPXGMOCv7WkPK+hEcjfBLTNzVFcAAPzFvVZbdX49AQDgtf0BSpoDXv5TGXgAAAAASUVORK5CYII=)  
